@@ -1,3 +1,8 @@
+##						##				
+##    A fun text based 2016 election game 	##
+##    Feel free to customise for yourself!	##
+##						##
+
 import time # why you punish me - Hootie
 
 print "//////// ELECTION 2016 //////////\n\n"
