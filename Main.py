@@ -20,13 +20,12 @@ Jill Stein
 """
 
 print "Got one in mind?\n"
-
 print "Alright, let's roll\n"
 
 
 clintonyes	= "Clinton Suxxx"
 clintonno	= "Cool, keep researching.  Good luck!"
-johnsonyes  = "Well you are one smart cookie!  Now go smoke a bowl!"
+johnsonyes  	= "Well you are one smart cookie!  Now go smoke a bowl!"
 johnsonno	= "Well, better get sure because he's awesome!"
 trumpyes 	= "Trump big man"
 trumpno  	= "OK, that's probably good.  Who knows what the guy would do."
@@ -133,9 +132,8 @@ while (var == 1):
 	else :
 		print "None of these match!  Common this is important. Try again.\n"
 		time.sleep(.5)
-
-#time.sleep(.5)
-#print "\n Wanna Vote Again?"
+		
+#	thanks for playing!	#
 
 
 
