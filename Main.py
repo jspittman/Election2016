@@ -22,11 +22,11 @@ print "Alright, let's roll\n"
 clintonyes	= "Clinton Suxxx"
 clintonno	= "Cool, keep researching.  Good luck!"
 johnsonyes  = "Well you are one smart cookie!  Now go smoke a bowl!"
-johnsonno	= "Not voting johnson?"
+johnsonno	= "Well, better get sure because he's awesome!"
 trumpyes 	= "Trump big man"
-trumpno  	= "OK, that's probably good.  Who knows what the guy would do"
+trumpno  	= "OK, that's probably good.  Who knows what the guy would do."
 steinyes 	= "Going green is always good :)"
-steinno  	= "Too bad.  She'll miss your vote"
+steinno  	= "That's ok-  Keep on looking."
 
 var = 1
 
@@ -36,7 +36,7 @@ while (var == 1):
 	if answer in ("Clinton", "c", "C", "1"):
 		print "\nClinton, huh?\n"
 		time.sleep(.75)
-		answer1 = raw_input("Are you sure?\n")
+		answer1 = raw_input("Are you sure?")
 		if answer1 in ("Yes", "yes", "Y", "y"):
 			print "You can't be serious."
 			time.sleep(.75)
@@ -61,10 +61,8 @@ while (var == 1):
 			print clintonno
 			break
 		else:
-			print "\nThat answer is unacceptable.  You are deplorable.  Try again"
+			print "\nThat answer is unacceptable.  You are deplorable.  Try again\n\n"
 			time.sleep(.5)
-			print "\n"
-			
 			
 	elif answer in ("Johnson", "j", "J", "2"):
 		print "\nJohnson, huh?"
@@ -73,16 +71,17 @@ while (var == 1):
 		if answer1 in ("Yes", "yes", "y"):
 			print johnsonyes
 			break
-		if answer1 in ("No", "no", "n") == "No":
+		if answer1 in ("No", "no", "n"):
 			print johnsonno
 			break
 		else:
-			print "Missed that.  Try again"
+			print "\nAre you high?  Keep trying\n\n"
+			time.sleep(.5)
 
 	elif answer in ("Trump", "t", "T", "3"):
 		print "\nTrump, huh?"
 		time.sleep(.75)
-		answer1 = raw_input("Are you sure?\n")
+		answer1 = raw_input("Are you sure?")
 		if answer1 == "Yes":
 			print "Cool!"
 			break
@@ -96,7 +95,8 @@ while (var == 1):
 			print trumpno
 			break
 		else:
-			print "\nHelp Make American Great Again.  "	
+			print "\nHelp Make American Great Again.  Keep trying\n\n"
+			time.sleep(.5)
 			
 			
 	elif answer in ("Stein", "s", "S","4"):
@@ -113,16 +113,17 @@ while (var == 1):
 			print "It's good to be green :)"
 			break
 		if answer1 == "No" + "n":
-			print "Ok, no worries"
+			print steinno
 			break
 		if answer1 == "no":
-			print "Ok, no worries"
+			print steinno
 			break
 		if answer1 == "n":
-			print "Ok, no worries"
+			print steinno
 			break
 		else:
-			print "Missed that.  Try again"	
+			print "\nSwing and a whiff.  Try again\n\n"
+			time.sleep(.5)
 			
 	else :
 		print "None of these match!  Common this is important. Try again.\n"
@@ -130,3 +131,6 @@ while (var == 1):
 
 #time.sleep(.5)
 #print "\n Wanna Vote Again?"
+
+
+
